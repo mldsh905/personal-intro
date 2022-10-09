@@ -1,0 +1,78 @@
+.wrapper{
+    height: 50px;
+    background-color: rgb(27,27,27);
+    display: grid;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.container{
+    /*margin: 0 8vw;*/
+    padding: 0 8vw;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+}
+.nav{
+    display: grid;
+    align-items: center;
+    gap: 3vw;
+    grid-auto-flow: column;
+    color: #f8efd4;
+}
+.navItem{
+    display: grid;
+    gap: 0.5vw;
+    grid-auto-flow: column;
+    padding: 3px 0;
+    align-items: center;
+    cursor: pointer;
+}
+.navItem:hover{
+    border-bottom: 2px solid #f8efd4;
+    border-top: 2px solid rgb(27,27,27);
+}
+.menu{
+    display: none;
+}
+.logo{
+    color: #f8efd4;
+    font-weight: 900;
+    letter-spacing: 5px;
+    font-size: 2rem;
+    font-family: "Big Shoulders Stencil Display", cursive;
+}
+@media (max-width: 768px) {
+    .logo{
+        font-size: calc(.7rem + 1.5vw);
+    }
+    .menu{
+        display: block;
+        color: #f8efd4;
+        cursor: pointer;
+    }
+    .nav{
+        display: none;
+    }
+    .navOn{
+        display: grid;
+        gap: 10px;
+        position: absolute;
+        background-color: rgb(70,70,70);
+        top: 50px;
+        width: 100vw;
+        color: #f8efd4;
+    }
+    .icon{
+        display: none;
+    }
+    .navItem{
+        display: grid;
+        justify-content: center;
+        background-color: rgb(70,70,70);
+    }
+    .navItem:hover{
+        border:none;
+    }
+}

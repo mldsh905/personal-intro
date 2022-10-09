@@ -1,0 +1,146 @@
+.wrapper {
+    height: calc(100vh - 50px);
+    background-color: rgb(27,27,27);
+    color: #f8efd4;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.container {
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+}
+
+.span {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 2vw;
+    width: 80vw;
+    justify-content: start;
+    font-weight: 800;
+    font-family: "Montserrat", sans-serif;
+    font-size: calc(1rem + 3vw);
+}
+.spanAnime{
+    animation: opa 1s ease;
+}
+@keyframes opa {
+    from{
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to{
+        opacity: 1;
+    }
+}
+.intro {
+    display: grid;
+    justify-content: end;
+    font-size: calc(1rem + 3vw);
+    font-weight: 800;
+}
+.introAnime{
+    animation: opa1 2s ease;
+}
+@keyframes opa1 {
+    from{
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    30%{
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    to{
+        opacity: 1;
+    }
+}
+.link {
+    margin-top: 20px;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+}
+.linkAnime{
+    animation: opa2 2.5s ease;
+}
+@keyframes opa2 {
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    40%{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to{
+        opacity: 1;
+    }
+}
+.linkScroll{
+    cursor: pointer;
+    width: 150px;
+    padding: 15px 0;
+    color: #f8efd4;
+    letter-spacing: 3px;
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 10px;
+    background-color: rgb(27,27,27);
+    border: solid 3px #f8efd4;
+    text-align: center;
+}
+.linkScroll:hover{
+    transition: .5s;
+    background-color: #f8efd4;
+    color: rgb(27,27,27);
+    letter-spacing: 5px;
+    box-shadow: 0 0 10px #f8efd4;
+}
+.arrow{
+    display: grid;
+    justify-content: center;
+    margin-top: 200px;
+    opacity: 0;
+}
+.arrowAnime{
+    animation: arrow 1.5s ease-in-out infinite;
+    animation-delay: 2s;
+}
+@keyframes arrow {
+    from{
+        transform:translateY(-10px);
+        opacity: 0;
+    }
+    30%, 70%{
+        opacity: 1;
+    }
+    to{
+        transform:translateY(10px);
+        opacity: 0;
+    }
+}
+.arrowIcon{
+    scale:1.5;
+    transform: scaleX(1.2);
+}
+@media (max-width: 768px) {
+    .span, .intro{
+        font-size: calc(.7rem + 2.5vw);
+    }
+    .container, .intro{
+        text-align: center;
+        justify-items: center;
+    }
+    .link{
+        display: grid;
+        gap: 20px;
+        grid-auto-flow: row;
+    }
+    .arrow{
+        margin-top: 20px;
+    }
+}

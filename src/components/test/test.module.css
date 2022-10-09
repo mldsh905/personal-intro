@@ -1,0 +1,19 @@
+.test0{
+    height: 100vh;
+    background-color: #bfa;
+    border: 10px solid black;
+    animation: 3s load-in-projects ease;
+}
+.test1{
+    height: 100vh;
+    background-color: #bfa;
+    border: 10px solid black;
+}
+@keyframes load-in-projects {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
