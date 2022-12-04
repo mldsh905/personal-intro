@@ -88,6 +88,14 @@ const Skill = () => {
                             <span>Illustrator</span>
                             <img src="/images/ai.png" alt=""/>
                         </li>
+                        <li>
+                            <span>AWS</span>
+                            <img src="/images/aws.png" alt=""/>
+                        </li>
+                        <li>
+                            <span>PostgreSQL</span>
+                            <img src="/images/postgresql.png" alt=""/>
+                        </li>
                     </ul>
                 </div>
                 <Link to="projects" spy={true} smooth={true} offset={-50} duration={500} className={contentState?`${classes.arrow} ${classes.arrowAnime}`:classes.arrow}>

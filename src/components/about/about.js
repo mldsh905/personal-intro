@@ -9,15 +9,16 @@ const About = () => {
     return (
         <div id='about' className={classes.wrapper}>
             <div className={classes.container}>
-                <div ref={title} className={titleState?`${classes.title} ${classes.titleAnime}`:classes.title}>
+                <div ref={title} className={titleState ? `${classes.title} ${classes.titleAnime}` : classes.title}>
                     <img src="/images/luffy.png" alt=""/>
                     <span>About me</span>
                 </div>
-                <div ref={intro}  className={introState?`${classes.intro} ${classes.introAnime}`:classes.intro}>
+                <div ref={intro} className={introState ? `${classes.intro} ${classes.introAnime}` : classes.intro}>
                     <div className={classes.introContent}>I am a full stack developer focusing on MERN stack. I used to
                         work as a
                         designer. So, I am quite familiar with software like Adobe PS, AI. And after self-taught/code
-                        camp, I finished several full stack projects and practice programs.
+                        camp, I finished several full stack projects and practice programs. And I also got AWS Certified
+                        Solutions Architect – Associate Certification.
                         I am happy to finish relevant trainings and courses in relation to full stack developer.
                     </div>
                     <div className={classes.introContent}>
@@ -27,7 +28,7 @@ const About = () => {
                         sharpen my skills.
                     </div>
                     <div className={classes.introContent}>
-                        At the moment, I plan to study on LeetCode and learn more about web service like AWS. And in the
+                        At the moment, I am learning algorithm and practising on Leetcode. And in the
                         future, I hope I can have a more comprehensive understanding towards the whole
                         industry by self-learning and working.
                     </div>
@@ -36,10 +37,6 @@ const About = () => {
                         to see you~ And wish all the best~
                     </div>
                 </div>
-
-                {/*<div ref={myref}>*/}
-                {/*    {`test2 ${state}`}*/}
-                {/*</div>*/}
             </div>
         </div>
     );
