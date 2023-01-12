@@ -14,10 +14,9 @@ const About = () => {
                     <span>About me</span>
                 </div>
                 <div ref={intro} className={introState ? `${classes.intro} ${classes.introAnime}` : classes.intro}>
-                    <div className={classes.introContent}>I am a full stack developer focusing on MERN stack. I used to
-                        work as a
-                        designer. So, I am quite familiar with software like Adobe PS, AI. And after self-taught/code
-                        camp, I finished several full stack projects and practice programs. And I also got AWS Certified
+                    <div className={classes.introContent}>I am a self-taught full stack developer. I built several
+                        full-stack projects, including TikTok-clone, Facebook-clone, Booking-clone, and etc. I use MEAN
+                        stack, TypeScript, Nextjs, AWS, and etc. And I also got AWS Certified
                         Solutions Architect – Associate Certification.
                         I am happy to finish relevant trainings and courses in relation to full stack developer.
                     </div>
@@ -28,9 +27,10 @@ const About = () => {
                         sharpen my skills.
                     </div>
                     <div className={classes.introContent}>
-                        At the moment, I am learning algorithm and practising on Leetcode. And in the
+                        At the moment, I enrol in Bachelor of IT part-time. I am also learning algorithm and practising on
+                        LeetCode. And in the
                         future, I hope I can have a more comprehensive understanding towards the whole
-                        industry by self-learning and working.
+                        industry by learning and working.
                     </div>
                     <div className={classes.introContent}>
                         On my spare time, I like swimming, running, watching anime like One Piece, playing piano. Good
