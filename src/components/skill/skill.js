@@ -25,12 +25,24 @@ const Skill = () => {
                             <img src="/images/css.png" alt=""/>
                         </li>
                         <li>
+                            <span>Tailwind CSS</span>
+                            <img src="" alt=""/>
+                        </li>
+                        <li>
                             <span>JavaScript</span>
                             <img src="/images/js.png" alt=""/>
                         </li>
                         <li>
+                            <span>TypeScript</span>
+                            <img src="/images/ts.png" alt=""/>
+                        </li>
+                        <li>
                             <span>React</span>
                             <img src="/images/react.png" alt=""/>
+                        </li>
+                        <li>
+                            <span>Nextjs</span>
+                            <img src="/images/nextjs.png" alt=""/>
                         </li>
                         <li>
                             <span>Redux</span>
@@ -69,6 +81,14 @@ const Skill = () => {
                             <img src="/images/render.png" alt=""/>
                         </li>
                         <li>
+                            <span>Vercel</span>
+                            <img src="/images/vercel.png" alt=""/>
+                        </li>
+                        <li>
+                            <span>Sanity</span>
+                            <img src="/images/sanity.png" alt=""/>
+                        </li>
+                        <li>
                             <span>NPM</span>
                             <img src="/images/npm.png" alt=""/>
                         </li>
@@ -95,6 +115,10 @@ const Skill = () => {
                         <li>
                             <span>PostgreSQL</span>
                             <img src="/images/postgresql.png" alt=""/>
+                        </li>
+                        <li>
+                            <span>GraphQL</span>
+                            <img src="/images/graphql.png" alt=""/>
                         </li>
                     </ul>
                 </div>

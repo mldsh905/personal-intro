@@ -13,7 +13,17 @@ const Projects = () => {
                     <span ref={title} className={titleState?`${classes.title} ${classes.titleAnime}`:classes.title}>Projects</span>
                     <ul ref={content} className={contentState?`${classes.list} ${classes.listAnime}`:classes.list}>
                         <li className={classes.listItem}>
-                            <span>Ethan-book</span>
+                            <span>TikTok-clone</span>
+                            {/*<video autoPlay loop muted src="/videos/book.mov"/>*/}
+                            <video autoPlay loop muted src="https://personal-intro.s3.ap-southeast-2.amazonaws.com/tiktok.mov"/>
+                            <span>This project is a website clone of TikTok. It is a full-stack responsive application built with TypeScript, Next.js, Sanity, Tailwind. The website includes functions of Google OAuth, upload, publish, comment, like...</span>
+                            <div className={classes.link}>
+                                <a rel='noreferrer' target="_blank" href="https://tik-tok-clone-ethen.vercel.app/">Demo</a>
+                                <a rel='noreferrer' target="_blank" href="https://github.com/mldsh905/TikTok-clone">Code</a>
+                            </div>
+                        </li>
+                        <li className={classes.listItem}>
+                            <span>Facebook-clone</span>
                             {/*<video autoPlay loop muted src="/videos/book.mov"/>*/}
                             <video autoPlay loop muted src="https://personal-intro.s3.ap-southeast-2.amazonaws.com/book.mov"/>
                             <span>This project is a website clone of Facebook.com. It is built by MERN stack. The website has social media functions like post, comment, search, follow...</span>
@@ -23,7 +33,7 @@ const Projects = () => {
                             </div>
                         </li>
                         <li className={classes.listItem}>
-                            <span>Ethan-booking</span>
+                            <span>Booking-clone</span>
                             {/*<video autoPlay loop muted src="/videos/booking.mov"></video>*/}
                             <video autoPlay loop muted src="https://personal-intro.s3.ap-southeast-2.amazonaws.com/booking.mov"></video>
                             <span>The project clones the website Booking.com and built by MERN stack. It has RESTful APIs with JWT authentication. And it can search hotels in various methods.</span>
