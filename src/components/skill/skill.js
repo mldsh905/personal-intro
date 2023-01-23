@@ -26,7 +26,7 @@ const Skill = () => {
                         </li>
                         <li>
                             <span>Tailwind CSS</span>
-                            <img src="" alt=""/>
+                            <img src="/images/tailwind.png" alt=""/>
                         </li>
                         <li>
                             <span>JavaScript</span>

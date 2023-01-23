@@ -23,13 +23,13 @@ const Projects = () => {
                             </div>
                         </li>
                         <li className={classes.listItem}>
-                            <span>Blog-clone</span>
+                            <span>Dashboard-clone</span>
                             {/*<video autoPlay loop muted src="/videos/book.mov"/>*/}
-                            <video autoPlay loop muted src="https://personal-intro.s3.ap-southeast-2.amazonaws.com/blog.mov"/>
-                            <span>This project is a website clone of Blog. It is a full-stack responsive application built with TypeScript, Next.js, GraphQL-CMS, Tailwind.</span>
+                            <video autoPlay loop muted src="https://personal-intro.s3.ap-southeast-2.amazonaws.com/dashboard.mov"/>
+                            <span>This project is a website clone of Dashboard. It is a full-stack responsive application built with TypeScript, MUI, and MERN stack.</span>
                             <div className={classes.link}>
-                                <a rel='noreferrer' target="_blank" href="https://blog-clone-teal.vercel.app/">Demo</a>
-                                <a rel='noreferrer' target="_blank" href="https://github.com/mldsh905/blog-clone">Code</a>
+                                <a rel='noreferrer' target="_blank" href="https://dashboard-clone-client.onrender.com/dashboard">Demo</a>
+                                <a rel='noreferrer' target="_blank" href="https://github.com/mldsh905/dashboard-clone">Code</a>
                             </div>
                         </li>
                         <li className={classes.listItem}>
@@ -40,6 +40,16 @@ const Projects = () => {
                             <div className={classes.link}>
                                 <a rel='noreferrer' target="_blank" href="https://ethan-book-client.onrender.com">Demo</a>
                                 <a rel='noreferrer' target="_blank" href="https://github.com/mldsh905/Ethan-Book">Code</a>
+                            </div>
+                        </li>
+                        <li className={classes.listItem}>
+                            <span>Blog-clone</span>
+                            {/*<video autoPlay loop muted src="/videos/book.mov"/>*/}
+                            <video autoPlay loop muted src="https://personal-intro.s3.ap-southeast-2.amazonaws.com/blog.mov"/>
+                            <span>This project is a website clone of Blog. It is a full-stack responsive application built with TypeScript, Next.js, GraphQL-CMS, Tailwind.</span>
+                            <div className={classes.link}>
+                                <a rel='noreferrer' target="_blank" href="https://blog-clone-teal.vercel.app/">Demo</a>
+                                <a rel='noreferrer' target="_blank" href="https://github.com/mldsh905/blog-clone">Code</a>
                             </div>
                         </li>
                         <li className={classes.listItem}>
