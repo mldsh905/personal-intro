@@ -13,6 +13,16 @@ const Projects = () => {
                     <span ref={title} className={titleState?`${classes.title} ${classes.titleAnime}`:classes.title}>Projects</span>
                     <ul ref={content} className={contentState?`${classes.list} ${classes.listAnime}`:classes.list}>
                         <li className={classes.listItem}>
+                            <span>Whatsapp-clone</span>
+                            {/*<video autoPlay loop muted src="/videos/book.mov"/>*/}
+                            <video autoPlay loop muted src="https://personal-intro.s3.ap-southeast-2.amazonaws.com/whatsapp.mov"/>
+                            <span>This project clones whatsapp. It built with TypeScript, Next.js, Tailwind, and Firebase. The website can login via Google and has live chat function...</span>
+                            <div className={classes.link}>
+                                <a rel='noreferrer' target="_blank" href="https://whatsapp-clone-six-psi.vercel.app">Demo</a>
+                                <a rel='noreferrer' target="_blank" href="https://github.com/mldsh905">Code</a>
+                            </div>
+                        </li>
+                        <li className={classes.listItem}>
                             <span>TikTok-clone</span>
                             {/*<video autoPlay loop muted src="/videos/book.mov"/>*/}
                             <video autoPlay loop muted src="https://personal-intro.s3.ap-southeast-2.amazonaws.com/tiktok.mov"/>

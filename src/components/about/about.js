@@ -15,16 +15,14 @@ const About = () => {
                 </div>
                 <div ref={intro} className={introState ? `${classes.intro} ${classes.introAnime}` : classes.intro}>
                     <div className={classes.introContent}>I am a self-taught full stack developer. I built several
-                        full-stack projects, including TikTok-clone, Facebook-clone, Booking-clone, and etc. I use MEAN
+                        full-stack projects, including Whatsapp-clone, TikTok-clone, Facebook-clone, Booking-clone, and etc. I use MEAN
                         stack, TypeScript, Nextjs, AWS, and etc. And I also got AWS Certified
                         Solutions Architect – Associate Certification.
-                        I am happy to finish relevant trainings and courses in relation to full stack developer.
                     </div>
                     <div className={classes.introContent}>
                         This website is a portfolio to demonstrate my projects and introduce myself. I am a fast learner
                         with a
-                        can-do attitude. I learnt MERN stack in two months and afterwards completed several projects to
-                        sharpen my skills.
+                        can-do attitude.
                     </div>
                     <div className={classes.introContent}>
                         At the moment, I enrol in Bachelor of IT part-time. I am also learning algorithm and practising on

@@ -97,10 +97,6 @@ const Skill = () => {
                             <img src="/images/mui.png" alt=""/>
                         </li>
                         <li>
-                            <span>Ant-Design</span>
-                            <img src="/images/antd.png" alt=""/>
-                        </li>
-                        <li>
                             <span>Photoshop</span>
                             <img src="/images/ps.png" alt=""/>
                         </li>
@@ -111,6 +107,10 @@ const Skill = () => {
                         <li>
                             <span>AWS</span>
                             <img src="/images/aws.png" alt=""/>
+                        </li>
+                        <li>
+                            <span>Firebase</span>
+                            <img src="/images/firebase.png" alt=""/>
                         </li>
                         <li>
                             <span>PostgreSQL</span>
